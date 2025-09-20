@@ -6,17 +6,19 @@
     align-items: center;
 }
 body, h1 {
-    font-family: 'Avenir LT Std';
+    font-family: 'Avenir LT Std', sans-serif;
     color: rgb(51, 51, 51);
     margin: 0;
-}
-html {
-    background: white;
 }
 
 body {
     background: url("img/background.png") repeat;
-    opacity: 0.5;
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+}
+
+.content>{
+    opacity: 1;
 }
 
 h1 {
