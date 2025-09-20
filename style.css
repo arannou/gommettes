@@ -37,9 +37,8 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 0.2rem;
     margin: 0;
-    border-bottom: #6F6C6C 1px solid;
 }
 
 .username {
